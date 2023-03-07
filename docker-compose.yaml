@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+    container_name: mobilebackend
+    command: npm run dev
+    ports:
+      - 3000:3000
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app

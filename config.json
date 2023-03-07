@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "token": "secret",
+      "directory": "firstUser"
+    },
+    {
+      "token": "secret2",
+      "directory": "secondUser"
+    }
+  ]
+}
